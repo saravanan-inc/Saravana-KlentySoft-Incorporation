@@ -40,18 +40,22 @@
 
     /* block-2 */
 
+    
     .block-2 > p {
         margin: 0 10px;
         height: 100%;
+        font-size: 16px;
     }
 
     .inner-blocks {
         flex-direction: column;
-        margin: 10px;
     }
 
-    .inner-blocks > * {
-        margin: 20px;
+    .inner-text h4 {
+        font-size: 16px;
+    }
+    .inner-text p {
+        font-size: 14px;
     }
 
     .inner-blocks p {
@@ -66,7 +70,7 @@
     }
 
     .block-3 h1 {
-        margin-top: 170px;
+        margin-top: 270px;
         width: 100%;
         font-size: 40px;
     }
@@ -82,6 +86,7 @@
 
     .inner-block-3-1 span, .inner-block-4-1 span, .inner-block-5-1 span {
         width: 100%;
+        font-size: 12px;
     }
 
     /* block-4 */
@@ -128,6 +133,7 @@
 
     .inner-block-3-1 h4, .inner-block-4-1 h4, .inner-block-5-1 h4 {
         width: 100%;
+        height: 100%;
     }
 
     .inner-block-3-1 p, .inner-block-4-1 p, .inner-block-5-1 p{
