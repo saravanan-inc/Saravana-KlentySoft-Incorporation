@@ -1,0 +1,131 @@
+
+
+@media (max-width: 768px) {
+    /* header */
+    .header__container {
+        justify-content: space-around;
+    }
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+        width: 50px;
+    }
+
+    /* Block-1 */
+    .block-1 h1 {
+        width: 100%;
+        margin: 20px 10px;
+        font-size: 40px;
+        line-height: initial;
+    }
+
+    .block-1 p {
+        width: 100%;
+        height: auto;
+        margin-top: 7x;
+    }
+
+    /* block-2 */
+
+    .block-2 > p {
+        margin: 0 10px;
+    }
+
+    .inner-blocks {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .inner-blocks > * {
+        margin: 20px;
+    }
+
+    .inner-blocks p {
+        width: 100%;
+    }
+
+    /* block-3 */
+
+    .inner-block-3 {
+        flex-direction: column;
+    }
+
+    .inner-blocks-3 > * {
+        margin: 0;
+    }
+
+    .inner-block-3-1, .inner-block-4-1, .inner-block-5-1 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .inner-block-3-1 span, .inner-block-4-1 span, .inner-block-5-1 span {
+        width: 100%;
+    }
+
+    /* block-4 */
+
+    .inner-block-4 {
+        flex-direction: column;
+    }
+
+    .inner-block-5-1 span {
+        width: 100%;
+    }
+
+    .inner-block-5-1 h2 {
+        width: 100%;
+    }
+
+    /* block-5 */
+
+    .inner-block-5 {
+        flex-direction: column;
+    }
+
+    /* slider */
+    .slider-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider {
+        width: 80%
+    }
+
+    .slider-next {
+        right: 5px;
+    }
+    .slider-prev {
+        left: 5px;
+    }
+
+    .inner-block-3-1 h4, .inner-block-4-1 h4, .inner-block-5-1 h4 {
+        width: 100%;
+    }
+
+    .inner-block-3-1 p, .inner-block-4-1 p, .inner-block-5-1 p{
+        width: 100%;
+    }
+
+    .inner-block-3-2, .inner-block-4-2, .inner-block-5-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider-show {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slides > p{
+        font-size: 12px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .slider-footer {
+        display: none;
+    }
+
+}
